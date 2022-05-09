@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="lab2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Lab 2</title>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <!--LOGIN BOX-->
+    <form action="#" class="login" name="myform">
+        <fieldset class="login_fieldset">
+            <legend>User Authentication:</legend>
+            <label for="username" class="login_label">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password"  class="login_label">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <input type="submit" value="Log in" class="login_submitBtn">
+        </fieldset>
+    </form>
+    <!--OUTPUT BOX-->
+    <!--only appears when Login Box is submitted sucessfully-->
+    <div class="output">
+        <p>User Name: <span class="output_username"></span></p>
+        <p>Password: <span class="output_password"></span></p>
+    </div>
+</body>
+</html>

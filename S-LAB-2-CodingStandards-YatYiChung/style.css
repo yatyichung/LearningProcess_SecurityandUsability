@@ -1,0 +1,43 @@
+/*General Styling*/
+body{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.red{
+    background-color:red;
+}
+
+/*LOGIN BOX*/
+.login{
+    background-color: #f0f0e1;
+    padding: 10px;
+    margin:15px;
+    border: 4px dashed black;
+}
+
+.login_fieldset{
+    width:300px;
+}
+
+.login_label {
+    background-color: #c1c1c1;
+    font-family: monospace;
+}
+
+.login_submitBtn{
+    margin:10px 15px;
+}
+
+/*OUTPUT BOX*/
+.output{
+    margin:15px;
+    padding:30px;
+    border:2px solid black;
+    display:none;
+}
+
+.output_username,.output_password{
+    font-weight: bold;
+}
