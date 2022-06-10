@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="utf-8">
+    <title>S-Assignment_1-Jasmine_Testing</title>
+      <!-- include CryptoJS file here... -->
+    <script src="jasmine/lib/md5.js" ></script>
+    <!-- include source files here... -->
+    <script src="/jasmine/src/checkLogin.js"></script>
+    <script src="/jasmine/src/md5Encrypt.js"></script>
+    <script src="/Assign1.js"></script>
+</head>
+<body>
+    <h1>Login Page</h1>
+    <!--LOGIN BOX-->
+    <form action="#" class="login" name="myform">
+        <fieldset class="login_fieldset">
+            <legend>User Authentication:</legend>
+            <label for="username" class="login_label">Username:</label>
+            <input type="text" id="username" name="username">
+            <br>
+            <label for="password"  class="login_label">Password:</label>
+            <input type="password" id="password" name="password">
+            <br>
+            <input type="submit" value="Log in" class="login_submitBtn">
+        </fieldset>
+    </form>
+    <!--OUTPUT BOX-->
+    <div class="output" style="display:none;">
+        <p>Message: <span class="output_message"></span></p>
+    </div>
+</body>
+</html>
